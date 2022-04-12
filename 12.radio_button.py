@@ -7,8 +7,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 import time
-options = Options()
-options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 driver_path = Service('D:\\dchrome\\chromedriver_win32\\chromedriver.exe')
 browser = webdriver.Chrome(service=driver_path)
