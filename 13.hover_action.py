@@ -25,5 +25,5 @@ if __name__ == '__main__':
     unittest.main()
 
         
-        
+#Esto sirve para validar que los links se llamen como tiene que ser, que no tengan errores ortograficos o errores de palabras.
     
