@@ -11,6 +11,6 @@ time.sleep(5)
 alerta = browser.find_element(by=By.ID, value = "alert")
 alerta.click()
 time.sleep(3)
-alerta = browser.switch_to.alert.accept()#El Switch tu alert, hace que se dirija a la ventana de la alerta y la acepte
+alerta = browser.switch_to.alert.accept()#El Switch to alert, hace que se dirija a la ventana de la alerta y la acepte
 time.sleep(3)
 browser.close()
