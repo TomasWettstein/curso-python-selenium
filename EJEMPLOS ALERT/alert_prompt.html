@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALERT PROMPT</title>
+</head>
+<body>
+    <h4>Click en el boton</h4>
+    <button id="alert">ALERT PROMPT</button>
+    <p id="p"></p>
+</body>
+<script>
+    let btn = document.getElementById('alert')
+    let parrafo = document.getElementById('p')
+    btn.addEventListener("click", () => {
+        let nombre = prompt("Ingrese su nombre")
+        if(nombre != null){
+            parrafo.innerText = `Buenos dias ${nombre}`
+        }else {
+            parrafo.innerText = "No ingresaste un nombre"
+        }
+    })
+</script>
+</html>
